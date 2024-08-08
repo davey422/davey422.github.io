@@ -207,7 +207,7 @@ div#itemBackdrop::after {
 
 .detailPageSecondaryContainer {
   margin: 0em !important;
-  background: transparent;
+  background: transparent !important;
 }
 
 div#itemDetailPage {
@@ -1502,7 +1502,7 @@ div#divRunningTasks {
   text-shadow: none;
   background: rgb(20, 20, 20);
   background: transparent;
-  padding-left: 0;
+  padding-left: 0 !important;
   padding-right: 0 !important;
 }
 

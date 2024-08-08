@@ -1735,11 +1735,11 @@ h2 {
 .backgroundContainer.withBackdrop {
   opacity: 1;
   z-index: -1;
-  background-color: rgb(20, 20, 20);
+  /* background-color: rgb(20, 20, 20); */
 }
 
 .backgroundContainer {
-  background-color: rgb(20, 20, 20) !important;
+  /* background-color: rgb(20, 20, 20) !important; */
 }
 
 /*Rounded corners and square hover buttons*/
@@ -1776,7 +1776,7 @@ h2 {
   background: linear-gradient(
     to bottom,
     rgb(5, 5, 5),
-    rgb(20, 20, 20)
+    rgba(0,0,0,0)
   ) !important;
 }
 
@@ -1784,7 +1784,7 @@ h2 {
   background: linear-gradient(
     to bottom,
     rgb(5, 5, 5),
-    rgb(20, 20, 20)
+    rgba(0,0,0,0)
   ) !important
   box-shadow: none !important;
   transform: none !important;

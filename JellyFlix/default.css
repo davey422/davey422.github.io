@@ -196,7 +196,6 @@ div#itemBackdrop {
     linear-gradient(to top, transparent, black);
   -webkit-mask-image: linear-gradient(to right, transparent, black),
     linear-gradient(to top, transparent, black);
-  mask-composite: source-in;
   -webkit-mask-composite: source-in;
   mask-composite: intersect;
 }
@@ -1784,9 +1783,9 @@ h2 {
 .skinHeader.focuscontainer-x.skinHeader-withBackground.skinHeader-blurred.semiTransparent {
   background: linear-gradient(
     to bottom,
-    rgb(20, 20, 20),
-    transparent
-  ) !important;
+    rgb(5, 5, 5),
+    rgb(20, 20, 20)
+  ) !important
   box-shadow: none !important;
   transform: none !important;
 }

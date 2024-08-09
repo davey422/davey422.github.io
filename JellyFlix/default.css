@@ -1808,6 +1808,10 @@ h2 {
   */
 }
 
+.skinHeader-withBackground {
+  background-color: inherit;
+}
+
 .skinHeader.focuscontainer-x.skinHeader-withBackground.skinHeader-blurred.semiTransparent {
   background: linear-gradient(
     to bottom,

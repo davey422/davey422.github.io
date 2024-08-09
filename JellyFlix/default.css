@@ -317,7 +317,7 @@ div#itemDetailPage {
   position: absolute;
   background-position: top right;
   right: 0;
-  width: 70vw;
+  width: 100%;
   background-size: cover;
   background-attachment: scroll;
   mask-image: linear-gradient(to right, black, transparent), linear-gradient(to top, transparent, black);

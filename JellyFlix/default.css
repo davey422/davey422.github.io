@@ -319,7 +319,7 @@ div#itemDetailPage {
   width: 100%;
   background-size: cover;
   background-attachment: scroll;
-  mask-image: linear-gradient(to right, black, transparent), linear-gradient(to top, transparent, black);
+  mask-image: linear-gradient(to right, transparent, black), linear-gradient(to top, transparent, black);
   -webkit-mask-image: linear-gradient(to right, transparent, black), linear-gradient(to top, transparent, black);
   -webkit-mask-composite: source-in;
   mask-composite: intersect;
@@ -1757,7 +1757,7 @@ h2 {
   width: 100%;
   background-size: cover;
   background-attachment: scroll;
-  mask-image: linear-gradient(to right, black, transparent), linear-gradient(to top, transparent, black);
+  mask-image: linear-gradient(to right, transparent, black), linear-gradient(to top, transparent, black);
   -webkit-mask-image: linear-gradient(to right, transparent, black), linear-gradient(to top, transparent, black);
   -webkit-mask-composite: source-in;
   mask-composite: intersect;

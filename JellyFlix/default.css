@@ -312,6 +312,18 @@ div#itemDetailPage {
 
 .layout-tv .backgroundContainer.withBackdrop {
   background-color: transparent !important;
+  height: 100% !important;
+  z-index: 0;
+  position: absolute;
+  background-position: top right;
+  right: 0;
+  width: 70vw;
+  background-size: cover;
+  background-attachment: scroll;
+  mask-image: linear-gradient(to right, black, transparent), linear-gradient(to top, transparent, black);
+  -webkit-mask-image: linear-gradient(to right, transparent, black), linear-gradient(to top, transparent, black);
+  -webkit-mask-composite: source-in;
+  mask-composite: intersect;
 }
 
 .layout-tv div#itemDetailPage {
@@ -1733,9 +1745,23 @@ h2 {
 }
 
 .backgroundContainer.withBackdrop {
+  /* 
   opacity: 1;
   z-index: -1;
-  /* background-color: rgb(20, 20, 20); */
+  background-color: rgb(20, 20, 20); 
+  */
+  height: 100% !important;
+  z-index: 0;
+  position: absolute;
+  background-position: top right;
+  right: 0;
+  width: 70vw;
+  background-size: cover;
+  background-attachment: scroll;
+  mask-image: linear-gradient(to right, black, transparent), linear-gradient(to top, transparent, black);
+  -webkit-mask-image: linear-gradient(to right, transparent, black), linear-gradient(to top, transparent, black);
+  -webkit-mask-composite: source-in;
+  mask-composite: intersect;
 }
 
 .backgroundContainer {

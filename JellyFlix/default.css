@@ -1813,7 +1813,7 @@ h2 {
     to bottom,
     rgba(5, 5, 5),
     transparent
-  ) !important
+  ) !important;
   box-shadow: none !important;
   transform: none !important;
 }

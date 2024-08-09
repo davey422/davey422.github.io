@@ -1808,7 +1808,13 @@ h2 {
 }
 
 .skinHeader-withBackground {
-  background-color: inherit;
+  background: linear-gradient(
+    to bottom,
+    rgba(5, 5, 5),
+    transparent
+  ) !important;
+  box-shadow: none !important;
+  transform: none !important;
 }
 
 .skinHeader.focuscontainer-x.skinHeader-withBackground.skinHeader-blurred.semiTransparent {

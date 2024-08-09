@@ -162,10 +162,9 @@ span.material-icons.checkboxIcon.checkboxIcon-checked.check {
 }
 
 .cardIndicators {
-  right: 0;
+  right: 0 !important;
   top: 0;
 }
-
 .countIndicator,
 .fullSyncIndicator,
 .playedIndicator {

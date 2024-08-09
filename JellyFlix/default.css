@@ -162,7 +162,7 @@ span.material-icons.checkboxIcon.checkboxIcon-checked.check {
 }
 
 .cardIndicators {
-  right: 0 !important;
+  right: -.01em !important;
   top: 0;
 }
 .countIndicator,

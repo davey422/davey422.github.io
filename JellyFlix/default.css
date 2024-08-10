@@ -1740,27 +1740,28 @@ h2 {
 /*Blur backdrops, feel free to edit the intensity of the filter values*/
 
 .backdropContainer {
-  display: none !important;
-}
-
-.backgroundContainer.withBackdrop {
-  /* 
-  opacity: 1;
-  z-index: -1;
-  background-color: rgb(20, 20, 20); 
-  */
+  /* display: none !important; */
   height: 100% !important;
   z-index: 0;
   position: absolute;
   background-position: top right;
   right: 0;
-  width: 100%;
+  left: auto;
+  width: 70vw;
   background-size: cover;
   background-attachment: scroll;
-  mask-image: linear-gradient(to right, transparent, black), linear-gradient(to top, transparent, black);
-  -webkit-mask-image: linear-gradient(to right, transparent, black), linear-gradient(to top, transparent, black);
+  mask-image: linear-gradient(to right, transparent, black),
+    linear-gradient(to top, transparent, black);
+  -webkit-mask-image: linear-gradient(to right, transparent, black),
+    linear-gradient(to top, transparent, black);
   -webkit-mask-composite: source-in;
   mask-composite: intersect;
+}
+
+.backgroundContainer.withBackdrop {
+  opacity: 1;
+  z-index: -1;
+  background-color: rgb(20, 20, 20); 
 }
 
 .backgroundContainer {

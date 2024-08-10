@@ -1740,7 +1740,7 @@ h2 {
 /*Blur backdrops, feel free to edit the intensity of the filter values*/
 
 .backdropContainer {
-  /* display: none !important; */
+  display: none !important;
 }
 
 .backgroundContainer.withBackdrop {
@@ -1808,11 +1808,7 @@ h2 {
 }
 
 .skinHeader-withBackground {
-  background: linear-gradient(
-    to bottom,
-    rgba(5, 5, 5),
-    transparent
-  ) !important;
+  background: transparent;
   box-shadow: none !important;
   transform: none !important;
 }
@@ -2230,7 +2226,7 @@ div:not(.paperList) .listItem {
 }
 
 .backgroundContainer {
-  background-color: #101010;
+  background-color: #181818;
 }
 
 .raised {

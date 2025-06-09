@@ -2345,7 +2345,3 @@ div:not(.paperList) .listItem {
 .skinHeader.focuscontainer-x.skinHeader-withBackground.skinHeader-blurred {
   background-image: linear-gradient(rgba(32,32,32,255), rgba(0,0,0,0));
 }
-
-h3.pageTitle {
-  display: none;
-}

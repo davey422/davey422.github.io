@@ -2342,6 +2342,6 @@ div:not(.paperList) .listItem {
   display: none;
 }
 
-.skinHeader.focuscontainer-x.skinHeader-withBackground.skinHeader-blurred.noHomeButtonHeader {
+.skinHeader.focuscontainer-x.skinHeader-withBackground.skinHeader-blurred {
   background-image: linear-gradient(rgba(59,59,59,255), rgba(0,0,0,0));
 }

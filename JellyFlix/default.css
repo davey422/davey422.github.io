@@ -2316,7 +2316,7 @@ div:not(.paperList) .listItem {
 }
 
 .headerButton.mainDrawerButton.barsMenuButton.headerButtonLeft.paper-icon-button-light {
-  display: none;
+  margin-right: -5px;
 }
 
 .tabs-viewmenubar.emby-tabs.focusable.scrollX {

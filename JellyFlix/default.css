@@ -2325,3 +2325,7 @@ div:not(.paperList) .listItem {
   padding-left: 150px; 
   float: left;
 }
+
+.headerRight {
+  z-index: 99;
+}

@@ -2327,4 +2327,5 @@ div:not(.paperList) .listItem {
 
 .headerRight {
   z-index: 99;
+  margin-right: 1em;
 }

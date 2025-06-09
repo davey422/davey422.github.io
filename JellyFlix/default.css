@@ -2316,11 +2316,11 @@ div:not(.paperList) .listItem {
   border-color: var(--accent);
 }
 
-.headerButton .mainDrawerButton .barsMenuButton .headerButtonLeft .paper-icon-button-light {
+.headerButton.mainDrawerButton.barsMenuButton.headerButtonLeft.paper-icon-button-light {
   display: none;
 }
 
-.tabs-viewmenubar .emby-tabs .focusable .scrollX {
+.tabs-viewmenubar.emby-tabs.focusable.scrollX {
   margin-top: -5px; 
   padding-left: 150px; 
   float: left;

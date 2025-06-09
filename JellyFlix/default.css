@@ -1694,6 +1694,7 @@ h2 {
   text-size-adjust: 130%;
   font-size: 130%;
   width: 100%;
+  background-image: linear-gradient(rgba(59,59,59,255), rgba(0,0,0,0));
 }
 
 .emby-tab-button.emby-tab-button-active::after {

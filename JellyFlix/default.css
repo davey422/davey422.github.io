@@ -2314,3 +2314,17 @@ div:not(.paperList) .listItem {
 .mdl-spinner__layer.mdl-spinner__layer-4.mdl-spinner__layer-4-active {
   border-color: var(--accent);
 }
+
+.headerButton .mainDrawerButton .barsMenuButton .headerButtonLeft .paper-icon-button-light {
+  display: none;
+}
+
+.tabs-viewmenubar .emby-tabs .focusable scrollX {
+  margin-top: -5px; 
+  padding-left: 150px; 
+  float: left;
+}
+
+.headerTabs .sectionTabs {
+  width: 100%;
+}

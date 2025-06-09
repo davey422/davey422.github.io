@@ -1693,6 +1693,7 @@ h2 {
   -ms-text-size-adjust: 130%;
   text-size-adjust: 130%;
   font-size: 130%;
+  width: 100%;
 }
 
 .emby-tab-button.emby-tab-button-active::after {
@@ -2319,12 +2320,8 @@ div:not(.paperList) .listItem {
   display: none;
 }
 
-.tabs-viewmenubar .emby-tabs .focusable scrollX {
+.tabs-viewmenubar.emby-tabs.focusable scrollX {
   margin-top: -5px; 
   padding-left: 150px; 
   float: left;
-}
-
-.headerTabs .sectionTabs {
-  width: 100%;
 }

@@ -2337,3 +2337,7 @@ div:not(.paperList) .listItem {
 .headerButton.headerButtonLeft {
   z-index: 99;
 }
+
+.headerButton.headerHomeButton.barsMenuButton.headerButtonLeft.paper-icon-button-light {
+  display: none;
+}

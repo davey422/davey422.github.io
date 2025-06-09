@@ -2339,7 +2339,7 @@ div:not(.paperList) .listItem {
 }
 
 .headerButton.headerHomeButton.barsMenuButton.headerButtonLeft.paper-icon-button-light {
-  display: none;
+  margin-right: -5px;
 }
 
 .skinHeader.focuscontainer-x.skinHeader-withBackground.skinHeader-blurred {

@@ -1693,7 +1693,7 @@ h2 {
   -ms-text-size-adjust: 130%;
   text-size-adjust: 130%;
   font-size: 130%;
-  width: 100%;
+  width: 95%;
 }
 
 .emby-tab-button.emby-tab-button-active::after {
@@ -2344,4 +2344,10 @@ div:not(.paperList) .listItem {
 
 .skinHeader.focuscontainer-x.skinHeader-withBackground.skinHeader-blurred {
   background-image: linear-gradient(rgba(32,32,32,255), rgba(0,0,0,0));
+}
+
+.flex.align-items-center.flex-grow.headerTop {
+  width: 95%;
+  align-self: center;
+  flex-wrap: wrap;
 }

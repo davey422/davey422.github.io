@@ -2329,3 +2329,7 @@ div:not(.paperList) .listItem {
   z-index: 99;
   margin-right: 1em;
 }
+
+.pageTitle.pageTitleWithLogo.pageTitleWithDefaultLogo {
+  margin: 0 0 0 1em;
+}
